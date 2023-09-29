@@ -20,4 +20,4 @@ dns:
   - tls://8.8.8.8:853
   - tcp://8.8.8.8
   fake-ip-filter:
-  - "+.*"
+  - "*.msftconnecttest.com"
