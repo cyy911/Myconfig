@@ -10,12 +10,16 @@ dns:
   - 114.114.114.114
   - 119.29.29.29
   - 223.5.5.5
+  - 180.184.1.1
   fallback:
   - tcp://1.1.1.1
   - tcp://8.8.8.8
-  - https://dns.cloudflare.com/dns-query
+  - tcp://9.9.9.9
   - tls://1.1.1.1:853
-  - https://dns.google/dns-query
   - tls://8.8.8.8:853
+  - tls://9.9.9.9:853
+  - https://1.1.1.1/dns-query
+  - https://dns.google/dns-query
+  - https://dns.quad9.net/dns-query
   fake-ip-filter:
   - "*.msftconnecttest.com"
