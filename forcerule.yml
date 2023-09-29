@@ -13,5 +13,9 @@ dns:
   fallback:
   - tcp://1.1.1.1
   - tcp://8.8.8.8
+  - https://dns.cloudflare.com/dns-query
+  - tls://1.1.1.1:853
+  - https://dns.google/dns-query
+  - tls://8.8.8.8:853
   fake-ip-filter:
   - "*.msftconnecttest.com"
