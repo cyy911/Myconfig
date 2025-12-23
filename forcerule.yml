@@ -20,15 +20,11 @@ dns:
   listen: 0.0.0.0:7874
   nameserver:
   - 119.29.29.29
-  - 117.50.10.10
-  - 1.1.8.8
   - 180.184.1.1
+  - 223.5.5.5
   fallback:
   - tcp://1.1.1.1
-  - tcp://8.8.8.8
   - tls://1.1.1.1:853
-  - tls://8.8.8.8:853
   - https://1.1.1.1/dns-query
-  - https://dns.google/dns-query
   fake-ip-filter:
   - "*.msftconnecttest.com"
